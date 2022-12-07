@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+    </style>
+    <link rel="stylesheet" href="../css/ggemi_web.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+
+    <title>샤로수길</title>
+  </head>
+  <body>
+    <div id="flexContainer" class="root">
+      <header>
+        <nav>
+          <div class="hamburger-menu">
+            <span id="navBarMessage">한눈에 보기</span>
+            <input id="menu__toggle" type="checkbox" />
+
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+
+            <ul class="menu__box">
+              <li>
+                <a class="menu__item" href="./koreanFoodPage.html">한식</a>
+              </li>
+              <li>
+                <a class="menu__item" href="./SoutheastAsianFoodPage.html"
+                  >동남아 음식</a
+                >
+              </li>
+              <li>
+                <a class="menu__item" href="./chineseFoodPage.html">중식</a>
+              </li>
+              <li>
+                <a class="menu__item" href="./japaneseFoodPage.html">일식</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <img
+          id="titleImg"
+          src="../기타 이미지/샤로젝트 숟가락 타이틀.png"
+          width="600px"
+          height="150px"
+        />
+        <h3 id="titleMessage">
+          오늘 샤로수길에서 뭐먹지? 버튼을 눌러 맛집을 추천 받아보세요!
+        </h3>
+        <div id="quote">
+          <span></span>
+          <span></span>
+        </div>
+        <div id="buttonContainer">
+          <button class="snip1535" id="koreanFood">한식</button>
+          <button id="westernFood" class="snip1535">동남아 음식</button>
+          <button id="chineseFood" class="snip1535">중식</button>
+          <button id="japaneseFood" class="snip1535">일식</button>
+        </div>
+        <img
+          id="stamp"
+          src="../기타 이미지/리얼 맛집 도장.png"
+          width="80px"
+          height="80px"
+        />
+      </header>
+      <main>
+        <img id="dustCat" src="../기타 이미지/먼고.gif" width="400px" />
+      </main>
+    </div>
+    <script type="module" src="../js/index.js"></script>
+    <script src="../js/quotes.js"></script>
+    <script src="../js/button.js"></script>
+  </body>
+</html>
