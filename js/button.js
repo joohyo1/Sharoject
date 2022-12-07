@@ -35,7 +35,7 @@ function drawkoreanFoodImg(event) {
   const main = document.querySelector("main");
   const bgImg = document.createElement("img");
 
-  bgImg.src = `img/${chosenImage}`;
+  bgImg.src = `../img/${chosenImage}`;
   bgImg.style.position = "relative";
 
   main.appendChild(bgImg);
@@ -55,7 +55,7 @@ function drawSoutheastAsianFoodImg(event) {
   const main = document.querySelector("main");
   const bgImg = document.createElement("img");
 
-  bgImg.src = `img/${chosenImage}`;
+  bgImg.src = `../img/${chosenImage}`;
 
   main.appendChild(bgImg);
   bgImg.width = 600;
@@ -72,7 +72,7 @@ function drawChineseFoodImg(event) {
   const main = document.querySelector("main");
   const bgImg = document.createElement("img");
 
-  bgImg.src = `img/${chosenImage}`;
+  bgImg.src = `../img/${chosenImage}`;
 
   main.appendChild(bgImg);
   bgImg.width = 600;
@@ -89,7 +89,7 @@ function drawJapaneseFoodImg(event) {
   const main = document.querySelector("main");
   const bgImg = document.createElement("img");
 
-  bgImg.src = `img/${chosenImage}`;
+  bgImg.src = `../img/${chosenImage}`;
 
   main.appendChild(bgImg);
   bgImg.width = 600;
